@@ -1,0 +1,170 @@
+body {    
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+nav {
+    text-align: right;
+    width: 100%;
+}
+
+li {
+    font-size: 13px;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    padding: 0px 2px;
+    text-align: center;
+}
+
+.text_links {
+    color: #b3b3b3;
+}
+
+ul {
+    list-style: none;
+    margin-top: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 10px 8px;
+    font-size: 14px;
+}
+
+#dots_menu {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    opacity: 68%;
+}
+
+#account_logo {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.text_links:hover {
+    text-decoration: underline;
+}
+
+#account_logo:hover {
+    opacity: 40%;
+}
+
+#dots_menu:hover {
+    opacity: 40%;
+}
+
+.search_box {
+    width: 550px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.search_input {
+    border: 1px solid #f2f2f2;
+    outline: solid #f2f2f2 ;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 25px;
+    border-radius: 25px;
+    width: 90%;
+}
+
+.search_input:hover{
+    border: solid 1.50px #cfcfcf;
+    box-shadow: #f2f2f2;
+}
+
+.search_icon1 {
+    width: 20px;
+    position: absolute;
+    top:13px;
+    right: 25px;
+}
+
+.search_icon2 {
+    width: 20px;
+    position: absolute;
+    top: 13px;
+    right: 0px;
+}
+
+.search_button {
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.search_button:hover {
+   border-color: #ddd;
+   cursor: pointer;
+}
+
+#google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 160px;
+    padding-bottom: 5px;
+}
+
+.languages {
+   font-size: 13px;
+   width: 500px;
+   margin: 0px auto;
+   margin-top: 18px;
+   text-align: center;
+}
+
+#links {
+    background-color: rgb(237, 237, 237);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    padding: 0px 10px;
+    padding-top: 0px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+h4 {
+    font-size: larger;
+    padding-left: 22px;
+    font-weight: normal;
+}
+
+.links {
+   display: inline-flex;
+}
+
+.links_left {
+    padding-left: 28.7px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.links_right {
+    padding-right: 8px;
+    padding-left: 83rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
